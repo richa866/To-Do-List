@@ -1,0 +1,144 @@
+
+ body{
+    background-color: #240046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .wrapper{
+   background-color: transparent;
+   padding: 1rem;
+   width: 30%;
+   margin-top: 10rem;
+   display: flex;
+   justify-content: center;
+   border-radius: 2rem;
+ }
+ .content{
+   text-align: center;
+   width: 100%;
+ }
+ h1{
+    font-size: 2.5rem;
+    color:#ffd60acc ;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+ .list_inputs{
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+ }
+
+
+ input{
+  text-align: left;
+    background-color: transparent;
+    padding: 1rem;
+    color:#ffd60a;
+    outline: none; 
+    width: 70%;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    font-style: normal;
+ }
+ input:focus{
+    border: 3px solid #9d4edd;
+ }
+ input::placeholder{
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    font-style: normal;
+    
+ }
+.add{
+    border-radius: 2rem;
+    outline: none;
+    padding: 0.4rem;
+    width: 3rem;
+    outline: none;
+    background-color: #ffd60a;
+    font-size: 1.2rem;
+ }
+
+
+
+
+ .display_list{
+   margin-top: 2rem;
+   margin-left: 0;
+ }
+ ul{
+   display: grid;
+   gap: 2rem;
+   list-style: none;
+   margin-left: 0;
+ }
+ .display_list li{
+   display: flex;
+   gap: 1rem;
+   text-align: left;
+   justify-content:space-between;
+   align-items: center;
+   padding: 0.8rem;
+   width: 80%;
+   margin-left: 0;
+   background-color: #ede7b1eb;
+   border-radius: 1rem;
+   font-size: 1.6rem;
+   font-family: "Caveat", cursive;
+    font-weight: 510;
+    font-style: normal;
+ }
+ .checkbox{
+  margin: 0; 
+  padding: 0; 
+  vertical-align: middle; 
+  width: 3rem; 
+  height: 3rem;   
+ }
+
+
+
+
+
+ .p{
+  display: flex;
+justify-content: left;
+text-align: left;
+   font-size: 1.6rem;
+   font-family: "Caveat", cursive;
+    font-weight: 510;
+    font-style: normal; padding: 0;
+ }
+ .remove{
+   display: flex;
+   justify-content: center;
+   width: 2.5rem;
+   font-size: 2rem;
+border-radius: 1rem;
+   border: none;
+   background-color: #9d4edd;
+ }
+ .newInp{
+  width: 100%;
+  text-align: left;
+   border: none;
+   outline: none;
+   color: black ;
+   font-size: 1.6rem;
+   font-family: "Caveat", cursive;
+    font-weight: 510;
+    font-style: normal;
+    margin: 0;
+ }
+ input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  /* transform: scale(1.2);  */
+  margin: 10px; 
+}
